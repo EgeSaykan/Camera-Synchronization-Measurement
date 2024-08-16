@@ -25,6 +25,7 @@ cd MYNT-EYE-S-SDK
 make init
 make install
 make samples
+cd ..
 
 sudo apt-get install ros-iron-camera-info-manager ros-iron-launch-testing-ament-cmake
 cd dev_ws/src
