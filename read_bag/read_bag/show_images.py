@@ -12,20 +12,24 @@ class MinimalSubscriber(Node):
     super().__init__('image_subscriber')
 
     self.declare_parameter('showImg', True)
+    self.declare_parameter('showImgDepth', True)
     is_show = self.get_parameter('showImg').get_parameter_value().bool_value
-    
-    if (is_show):
+    is_show_depth = self.get_parameter('showImgDepth').get_parameter_value().bool_value
+    if is_show:
       self.subscription = self.create_subscription(
           Image,
           '/kinect/image_raw',
           self.show_image,
           10)
+      self.subscription  # prevent unused variable warning
+    
+    if is_show_depth:
       self.subscription_depth = self.create_subscription(
           Image,
           '/kinect/depth/image_raw',
           self.show_image_depth,
           10)
-      self.subscription  # prevent unused variable warning
+      self.subscription_depth  # prevent unused variable warning
 
 
     self.bridge = CvBridge()

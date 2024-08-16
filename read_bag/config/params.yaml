@@ -1,0 +1,126 @@
+mynteye_calibration:
+  ros__parameters:
+    qos_length: 10
+    corners_x: 9
+    corners_y: 6
+    samples_count: 20
+    to_calibrate: stereo_images
+    window_size: 3
+mynteye_raw_data:
+  ros__parameters:
+    accel_range: -1
+    brightness: -1
+    contrast: -1
+    desired_brightness: -1
+    exposure_mode: -1
+    frame_rate: -1
+    gain: -1
+    gyro_range: -1
+    hdr_mode: -1
+    imu_frequency: -1
+    ir_control: -1
+    max_exposure: -1
+    max_gain: -1
+    qos_length: 10
+    request_index: 0
+mynteye_rectification:
+  ros__parameters:
+    qos_length: 10
+    on_display: true
+    camera_info:
+      left:
+        D:
+        - -0.33952385419593445
+        - 0.17386609780795526
+        - -0.00150026745415255
+        - -0.00057914532551325
+        - -0.05700631205495012
+        K:
+        - 363.69338488779596
+        - 0.0
+        - 378.47314403914197
+        - 0.0
+        - 361.077480660151
+        - 242.52364009981275
+        - 0.0
+        - 0.0
+        - 1.0
+        P:
+        - 362.5211450449236
+        - 0.0
+        - 392.82579040527344
+        - 0.0
+        - 0.0
+        - 362.5211450449236
+        - 242.74226570129395
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        - 0.0
+        R:
+        - 0.9996552087965773
+        - 0.0006801388280551479
+        - -0.026248827346115295
+        - -0.0006725726162886993
+        - 0.999999729695605
+        - 0.0002970770823728582
+        - 0.026249022304600543
+        - -0.0002793204103254283
+        - 0.9996553960281318
+      right:
+        D:
+        - -0.34979045550614124
+        - 0.17422210561248913
+        - 0.001529835270273251
+        - -2.3225530004494708e-05
+        - -0.05316763059662546
+        K:
+        - 366.8462882125293
+        - 0.0
+        - 373.2843530863925
+        - 0.0
+        - 363.96480942969623
+        - 242.96186734903893
+        - 0.0
+        - 0.0
+        - 1.0
+        P:
+        - 362.5211450449236
+        - 0.0
+        - 392.82579040527344
+        - -1727.3966068594177
+        - 0.0
+        - 362.5211450449236
+        - 242.74226570129395
+        - 0.0
+        - 0.0
+        - 0.0
+        - 1.0
+        - 0.0
+        R:
+        - 0.9998181046201875
+        - -0.0011473326007992186
+        - -0.01903789120672147
+        - 0.001141845134217851
+        - 0.9999993033621484
+        - -0.00029910684952413777
+        - 0.01903822111924542
+        - 0.0002773141199299774
+        - 0.9998187181851986
+disparity_node:
+  ros__parameters:
+    disparity_range: 80
+    min_disparity: 32
+    speckle_range: 16
+    speckle_size: 400
+disparity_view_node:
+  ros__parameters:
+    window_name: "Depth Image"
+    is_show: false
+    autosize_: false
+kinect:
+  kinect_show_image:
+    ros__parameters:
+      showImgDepth: false
+      showImg: true
