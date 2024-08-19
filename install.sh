@@ -64,7 +64,3 @@ git clone https://github.com/YuLiHN/kinect2_ros2
 cd kinect2_ros2
 rosdep install -r --from-paths .
 cd ../.. # path: cams/dev_ws
-
-
-# build all
-colcon build
