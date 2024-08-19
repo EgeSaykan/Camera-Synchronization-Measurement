@@ -45,6 +45,13 @@ def generate_launch_description():
                         name="kinect_ros2",
                         namespace="kinect"
   )
+  kinect2 = Node(
+                        package='kinect2_bridge',
+                        executable='kinect2_bridge',
+                        emulate_tty=True,
+                        name='kinect2_bridge',
+                        parameters=[config_path],
+                        output='screen')
   kinect_v1_show =  Node(
                         package="read_bag",
                         executable="kinect_show_image",
@@ -59,5 +66,6 @@ def generate_launch_description():
   ld.add_action(view_node)
   ld.add_action(kinect_v1_image)
   ld.add_action(kinect_v1_show)
+  ld.add_action(kinect2)
 
   return ld

@@ -1,3 +1,5 @@
+
+# install mynt sdk
 sudo apt-get update && sudo apt-get install locales
 sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
@@ -25,14 +27,44 @@ cd MYNT-EYE-S-SDK
 make init
 make install
 make samples
-cd ..
+cd .. # path: cams/
 
+
+# install mynt wrapper
 sudo apt-get install ros-iron-camera-info-manager ros-iron-launch-testing-ament-cmake
-cd dev_ws/src
+cd dev_ws/src       # path: cams/dev_ws/src
 git clone https://github.com/EgeSaykan/MYNT-EYE-S-ROS2-WRAPPER-IRON.git
 git clone https://github.com/ros-perception/image_pipeline.git
-cd image_pipeline
-git checkout iron
-cd ../../
+cd image_pipeline   # path: cams/dev_ws/src/image_pipeline
+git checkout iron 
+cd ../../../        # path: cams/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
+
+# install libreenect (kinect v1 sdk) 
+git clone https://github.com/OpenKinect/libfreenect
+cd libfreenect
+mkdir build
+cd build
+cmake -L ..
+make
+
+cmake .. -DBUILD_PYTHON3=ON
+make
+
+sudo apt-get install git cmake build-essential libusb-1.0-0-dev
+
+cd ../../   # path: cams/
+
+
+
+# install kinect v2 wrapper
+cd dev_ws/src/
+git clone https://github.com/YuLiHN/kinect2_ros2
+cd kinect2_ros2
+rosdep install -r --from-paths .
+cd ../.. # path: cams/dev_ws
+
+
+# build all
+colcon build
