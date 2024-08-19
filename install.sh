@@ -57,6 +57,21 @@ sudo apt-get install git cmake build-essential libusb-1.0-0-dev
 cd ../../   # path: cams/
 
 
+# download libreenect2 (kinect v2 sdk)
+git clone https://github.com/OpenKinect/libfreenect2.git
+cd libfreenect2
+sudo apt-get install build-essential cmake pkg-config
+sudo apt-get install libusb-1.0-0-dev
+sudo apt-get install libturbojpeg0-dev
+sudo apt-get install libglfw3-dev
+mkdir build && cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=$HOME/freenect2
+make
+make install
+cmake -Dfreenect2_DIR=$HOME/freenect2/lib/cmake/freenect2
+sudo cp ../platform/linux/udev/90-kinect2.rules /etc/udev/rules.d/
+cd ../../   # path: cams/
+
 
 # install kinect v2 wrapper
 cd dev_ws/src/
