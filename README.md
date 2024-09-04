@@ -8,7 +8,7 @@
 - Kinect v1
 - Kinect v2
 - MYNT EYE S
-
+- Ximea Cameras
 
 
 
@@ -115,7 +115,10 @@ Sensor ID, when you run the program with Kinect v2 connected and it doesn't run,
 
 <br>
 <br>
+- **Ximea Calibration:** <br>
 
+<br>
+<br>
 ## Usage
 
 Open the terminal at dev_ws.
