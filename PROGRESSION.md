@@ -2,6 +2,8 @@
 # My Progression On Sensors I Worked With For This Project
 
 ## SICK LD-MRS 400001
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/SINK.jpg?raw=true" alt="SICK Sensor" width="250"/>
+
 <br>
 
 ### Sensor Info
@@ -18,9 +20,13 @@ The sensor uses 9V-27V for power and connects via ethernet. I powered up the sen
 
 The machine did not recognise the ethernet connection to be connected so I set the IP address manually which completed the connection.
 
+## Unsupported Cameras
+
 ### Progression with Point Grey Research / Firefly Cameras
 
 The cameras use IEEE1394 standard for data transmission from the camera, I was unable to get them to work within Ubuntu 22.04.4
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Firefly.jpg?raw=true" alt="Firefly Camera" width="250"/>
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Point%20Grey.jpg?raw=true" alt="Point Grey Camera" width="250"/>
 
 ### Creative TOF cameras
 
