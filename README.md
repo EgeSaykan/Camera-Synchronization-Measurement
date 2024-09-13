@@ -9,13 +9,15 @@
 - Kinect v2
 - MYNT EYE S
 - Ximea Cameras
+- Thermoteknix Miricle
+- Velodyne
 
 
 
 
 ## Installation
 
-Make a workspace to contain the drivers and packages:
+Make a workspace to contain the drivers and packages: 
 ```
 mkdir -p cams/dev_ws
 cd cams/dev_ws
@@ -106,7 +108,7 @@ Show infrared video,
 ```
 <br>
 
-Sensor ID, when you run the program with Kinect v2 connected and it doesn't run, the sensor ID might be different. The console will show the sensor ID of detected sensors, replace this with returned value.
+Sensor ID, when you run the program wi th Kinect v2 connected and it doesn't run, the sensor ID might be different. The console will show the sensor ID of detected sensors, replace this with returned value.
 ```
   kinect2:
     ros__parameters:
@@ -116,6 +118,10 @@ Sensor ID, when you run the program with Kinect v2 connected and it doesn't run,
 <br>
 <br>
 - **Ximea Calibration:** <br>
+
+<br>
+<br>
+- **Thermoteknix Calibration:** <br>
 
 <br>
 <br>

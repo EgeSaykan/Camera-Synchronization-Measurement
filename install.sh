@@ -79,3 +79,28 @@ git clone https://github.com/YuLiHN/kinect2_ros2
 cd kinect2_ros2
 rosdep install -r --from-paths .
 cd ../.. # path: cams/dev_ws
+
+#XiAPI install
+wget https://www.ximea.com/downloads/recent/XIMEA_Linux_SP.tgz
+tar xzf XIMEA_Linux_SP.tgz
+cd package
+./install
+cd ..
+
+#Ximea ros2 driver install
+git clone https://github.com/African-Robotics-Unit/ximea_ROS2_driver.git
+cd /ximea_ROS2_driver
+colcon build --packages-select ximea_ros2_cam
+cd ..
+
+# velodyne install
+sudo apt search ros-iron-velodyne
+sudo apt install ros-iron-velodyne-driver
+
+# usb camera install
+git clone https://github.com/klintan/ros2_usb_camera.git
+cd ros2_usb_camera
+colcon build
+cd ..
+
+

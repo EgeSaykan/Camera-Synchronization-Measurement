@@ -25,3 +25,7 @@ The cameras use IEEE1394 standard for data transmission from the camera, I was u
 ### Creative TOF cameras
 
 I could not get the creative TOF cameras to work. They require a specific SDK in order to interact with however the website from the company that distributes the SDK is inaccessable as the company has since been bought out by sony. I have sent an email to the company asking if I could have access to the SDK or if they knew somewhere I would be able to access it, but I am yet to recieve a response
+
+### Here 3 GPS
+
+I started working with the here3 gps but could not find a good ros2 driver

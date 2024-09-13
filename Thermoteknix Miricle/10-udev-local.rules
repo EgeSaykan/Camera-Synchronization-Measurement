@@ -1,0 +1,1 @@
+ATTR{idVendor}=="17dc", ATTR{idProduct}=="0200", RUN+="/bin/sh -c '/sbin/fxload -D %N -t fx2 -I /opt/miricle/firmware/Miricle307.hex'"
