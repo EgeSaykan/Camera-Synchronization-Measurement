@@ -25,6 +25,9 @@ The cameras use IEEE1394 standard for data transmission from the camera, I was u
 ### Creative TOF cameras
 
 I could not get the creative TOF cameras to work. They require a specific SDK in order to interact with however the website from the company that distributes the SDK is inaccessable as the company has since been bought out by sony. I have sent an email to the company asking if I could have access to the SDK or if they knew somewhere I would be able to access it, but I am yet to recieve a response
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Creative1.jpg?raw=true" alt="Creative Camera" width="250"/>
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Creative2.jpg?raw=true" alt="Creative Camera" width="250"/>
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Creative3.jpg?raw=true" alt="Creative Camera" width="250"/>
 
 ### Here 3 GPS
 
