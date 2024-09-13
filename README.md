@@ -8,8 +8,11 @@
 - Kinect v1
 - Kinect v2
 - MYNT EYE S
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/MYNT.jpg?raw=true" alt="MYNT Sensor" width="250"/>
 
 - Ximea Cameras
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Ximea.jpg?raw=true" alt="Ximea Camera" width="250"/>
+
 - Thermoteknix Miricle
 <img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/MIRICLE.jpg?raw=true" alt="Thermoteknix Miricle Camera" width="250"/>
 
