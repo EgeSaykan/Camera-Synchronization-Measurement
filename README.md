@@ -10,7 +10,10 @@
 - MYNT EYE S
 - Ximea Cameras
 - Thermoteknix Miricle
-- Velodyne <img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Velodyne.jpg?raw=true" alt="Ximea Cameras" width="300"/>
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/MIRICLE.jpg?raw=true" alt="Ximea Cameras" width="300"/>
+
+- Velodyne
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Velodyne.jpg?raw=true" alt="Ximea Cameras" width="300"/>
 
 
 
