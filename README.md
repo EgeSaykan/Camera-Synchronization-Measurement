@@ -10,7 +10,7 @@
 - MYNT EYE S
 - Ximea Cameras
 - Thermoteknix Miricle
-- Velodyne
+- Velodyne <img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Velodyne.jpg?raw=true" alt="Ximea Cameras" width="300"/>
 
 
 
@@ -117,14 +117,12 @@ Sensor ID, when you run the program wi th Kinect v2 connected and it doesn't run
 
 <br>
 <br>
-- **Ximea Calibration:** <br>
 
+- **Thermoteknix Miricle Calibration:** <br>
+In order to set up the thermoteknix you need to run the script found in the Thermoteknix Miricle folder. You also need the hex file with the proprietary firmware which will allow the camera to then be used as a USB camera with the ros2_usb_camera Module.
 <br>
 <br>
-- **Thermoteknix Calibration:** <br>
 
-<br>
-<br>
 ## Usage
 
 Open the terminal at dev_ws.
