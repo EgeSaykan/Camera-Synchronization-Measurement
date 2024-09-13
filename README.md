@@ -10,7 +10,7 @@
 - MYNT EYE S
 <img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/MYNT.jpg?raw=true" alt="MYNT Sensor" width="250"/>
 
-- Ximea Cameras
+- [Ximea Cameras](https://www.ximea.com/support/wiki/apis/XIMEA_Linux_Software_Package#Download-for-Intel-x86-CPU-architecture)
 <img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/Ximea.jpg?raw=true" alt="Ximea Camera" width="250"/>
 
 - Thermoteknix Miricle
