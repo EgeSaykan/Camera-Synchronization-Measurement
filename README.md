@@ -8,7 +8,7 @@
 - Kinect v1
 - Kinect v2
 - MYNT EYE S
-<img src="your_image_url_here" alt="MYNT EYE S" width="250" style="transform: rotate(-90deg);"/>
+<img src="https://github.com/EgeSaykan/Camera-Synchronization-Measurement/blob/main/docs/MYNT.jpg?raw=true" alt="MYNT EYE S" width="250" style="transform: rotate(-90deg);"/>
 
 - Ximea Cameras
 - Thermoteknix Miricle
